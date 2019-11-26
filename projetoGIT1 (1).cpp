@@ -6,6 +6,15 @@
 */
 int contaLetras(char letra, string texto)
 {
+ int conLetras = 0;
+    for(int i=0;i<texto.lenght();i++)
+    {
+        if(texto[i]==letra)
+        {
+            conLetras++;
+        }
+    }
+    return conLetras;
 }
 
 /*
